@@ -16,6 +16,7 @@ It allows users to easily write, publish, and manage their blogs with a clean an
 ---
 
 ## 📂 Project Structure
+
 ```
 Quickblog/
 │
@@ -34,11 +35,13 @@ Quickblog/
 └── .gitignore
 
 ```
+
 ---
 
 ## ⚙ Installation
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Sahil2003kumar/QUICKBLOG.git
 
@@ -46,14 +49,15 @@ cd quickblog
 ```
 
 ### 2️⃣ Install Backend Dependencies
+
 ```bash
 cd server
 npm install
 
 ```
 
-
 ### 3️⃣ Install Frontend Dependencies
+
 ```bash
 cd ../client
 npm install
@@ -70,19 +74,17 @@ npm start
 
 ```
 
-
 ### Run Frontend
+
 ```bash
 cd client
 npm run dev
 ```
 
-
-
-
 🔑 Environment Variables
 
 **Backend `.env`**
+
 ```ini
 PORT=3000
 MONGO_URI=your_mongo_connection_string
@@ -91,6 +93,7 @@ JWT_SECRET=your_secret_key
 ```
 
 **Frontend `.env`**
+
 ```ini
 VITE_API_URL=http://localhost:3000
 ```
@@ -105,6 +108,3 @@ Create a new branch (feature/YourFeature)
 Commit your changes
 
 Open a pull request
-
-📜 License
-This project is licensed under the MIT License.
