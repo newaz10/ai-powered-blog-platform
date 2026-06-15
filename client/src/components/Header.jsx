@@ -34,8 +34,7 @@ const Header = () => {
         className="absolute -top-50 -z-1 opacity-50 pointer-events-none w-full"
       />
 
-      {/* Reduced top margin: mt-12 instead of mt-20 */}
-      <div className="text-center mt-12 sm:mt-16 mb-8">
+      <div className="text-center mt-4 sm:mt-6 mb-4">
         {/* AI Badge with Professional Sparkle Animation */}
         <div className="inline-flex items-center justify-center gap-2 px-5 py-1.5 mb-6 border border-primary/40 bg-primary/10 rounded-full text-sm font-medium text-primary shadow-sm">
           <span>New: AI Feature Integrated</span>
