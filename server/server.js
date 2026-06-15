@@ -13,7 +13,7 @@ await connectDB();
 app.use(cors());
 app.use(express.json());
 
-//Routes
+// Routes
 app.get("/", (req, res) => {
   res.send("api is working fine");
 });
