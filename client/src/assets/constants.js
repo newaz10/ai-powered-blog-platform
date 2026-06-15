@@ -1,22 +1,47 @@
 export const blogCategories = [
   "All",
-  "Technology",
-  "Startup",
-  "Lifestyle",
-  "Finance",
+  "Web Development",
+  "Artificial Intelligence",
+  "DevOps & Cloud",
 ];
 
 export const footer_data = [
   {
-    title: "Quick Links",
-    links: ["Home", "Contact Us"],
+    title: "Explore",
+    links: [
+      { label: "Home", href: "/" },
+      { label: "Blog Posts", href: "/blog" },
+      { label: "About Project", href: "/about" },
+    ],
   },
   {
-    title: "Need Help?",
-    links: ["Payment Methods", "Contact Us"],
+    title: "Topics",
+    links: [
+      { label: "Web Development", href: "/category/web-development" },
+      {
+        label: "Artificial Intelligence",
+        href: "/category/artificial-intelligence",
+      },
+      { label: "DevOps & Cloud", href: "/category/devops-cloud" },
+    ],
   },
   {
-    title: "Follow Us",
-    links: ["LinkedIn", "Github"],
+    title: "Connect",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/newaz10",
+        external: true,
+      },
+      {
+        label: "LinkedIn",
+        href: "https://linkedin.com/in/newaz10",
+        external: true,
+      },
+      {
+        label: "Contact Me",
+        href: "/contact",
+      },
+    ],
   },
 ];
