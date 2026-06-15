@@ -9,11 +9,10 @@ const app = express();
 
 await connectDB();
 // middlewares
-
 app.use(cors());
 app.use(express.json());
 
-//Routes
+// Routes
 app.get("/", (req, res) => {
   res.send("api is working fine");
 });
