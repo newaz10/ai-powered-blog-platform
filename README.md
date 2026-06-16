@@ -128,8 +128,8 @@ ai-powered-blog-platform/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/newaz10/ai-powered-blog-app.git
-cd ai-powered-blog-app
+git clone https://github.com/newaz10/ai-powered-blog-platform.git
+cd ai-powered-blog-platform
 ```
 
 ### 2️⃣ Configure Environment Variables
@@ -167,7 +167,7 @@ VITE_BASE_URL=http://localhost:3000
 ```bash
 cd server
 npm install
-npm start
+npm run server
 ```
 
 ### 4️⃣ Setup the Frontend Client
